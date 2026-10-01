@@ -1,0 +1,19 @@
+// employees and their departments
+Employees (EID, Name, Age, DID) = {
+  E1, John, 32, D1
+  E2, Alice, 28, D2
+  E3, Bob, 29, D1
+}
+Departments (DID, Dname) = {
+  D1, Sales
+  D2, Engineering
+}
+Emp (EID, Name, MgrID, DID) = {
+  E1, John, E2, D1
+  E3, Bob, E2, D1
+}
+A (x) = { 1 2 3 }
+B (x) = { 2 3 4 }
+C (x) = { 1 }
+R (a, b) = { 1, 2  2, 3  3, 3 }
+S (b, c) = { 2, 10  3, 20 }
